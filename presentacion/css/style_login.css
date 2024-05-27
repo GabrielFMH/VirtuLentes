@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  background-color: #000;
+}
+
+/* Estilos para el contenedor del video */
+#video-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Estilos para el video de fondo */
+#video-background {
+  position: absolute;
+  top: 50%; /* Centra verticalmente el video */
+  left: 50%; /* Centra horizontalmente el video */
+  transform: translate(-50%, -50%); /* Corrige la posición */
+  min-width: 100%; /* Asegura que el video cubra toda la anchura */
+  min-height: 100%; /* Asegura que el video cubra toda la altura */
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  object-fit: cover;
+  filter: brightness(0.6); /* Reducción del brillo */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Añade una sombra */
+}
+
+/* Estilos para el overlay */
+#video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -999;
+}
+
+
+.container {
+width: 25%; /* Define el ancho del contenedor */
+height: 50%; /* Define el alto del contenedor */
+margin: 50px auto; /* Ajusta el margen superior e inferior para centrar el contenedor verticalmente */
+padding: 20px; /* Añade un espacio interno al contenedor */
+border: 2px solid #ccc; /* Agrega un borde al contenedor */
+border-radius: 5px; /* Redondea las esquinas del contenedor */
+background-color: #a39f9f; /* Color de fondo del contenedor */
+color: #fff; /* Color del texto dentro del contenedor */
+display: flex; /* Utilizamos flexbox */
+flex-direction: column; /* Establecemos la dirección de flexión a columna */
+}
+
+
+.form-login {
+text-align: center; /* Centra el contenido del formulario */
+margin-bottom: 20px; /* Espacio entre el formulario y el borde inferior del contenedor */
+}
+
+.form-group {
+margin-bottom: 10px; /* Espacio entre cada campo del formulario */
+background-color: #ffffff; /* Color de fondo del contenedor */
+
+}
+
+.controls {
+width: 100%;
+padding: 10px;
+border: 1px solid #fff; /* Borde blanco */
+border-radius: 3px;
+background-color: transparent; /* Fondo transparente */
+color: #000000; /* Color del texto */
+}
+
+.buttons {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 3px;
+background: #03cafc;
+color: #fff;
+cursor: pointer;
+}
+
+.buttons:hover {
+background: #03cafc;  }
+
+.contenedor{
+border-color: #000;
+}
+.etique{
+margin-left: -82%;
+}
+.etique2{
+margin-left: -75%;
+}
+.error {
+  border: 1px solid red;
+}
