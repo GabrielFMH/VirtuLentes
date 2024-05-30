@@ -14,8 +14,7 @@
       <meta name="author" content="">
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
@@ -28,6 +27,55 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <style>
+         .product-container {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+         }
+         .product-container img {
+            width: 100%;
+            height: auto;
+         }
+         .product-container .price-container {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            margin: 10px 0;
+         }
+         .product-container .original-price {
+         text-decoration: line-through;
+         color: gray;
+         font-size: 1.1em;
+         margin-right: 10px;
+         }
+         .product-container .discount-price {
+            color: red;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-right: 5px;
+         }
+         .product-container .discount-label {
+            color: gray;
+            font-size: 1em;
+         }
+         .product-container .product-name {
+            font-size: 1.2em;
+            font-weight: bold;
+         }
+         .product-container .product-description {
+            color: gray;
+            font-size: 1em;
+            margin-bottom: 10px
+         }
+     </style>
    </head>
    <!-- body -->
    <body class="main-layout position_head">
@@ -37,59 +85,7 @@
       </div>
       <!-- end loader -->
       <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item ">
-                                 <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
-                              </li>
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="glasses.html">Our Glasses</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="shop.html">Shop</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
-                              </li>
-                              <li class="nav-item d_none login_btn">
-                                 <a class="nav-link" href="#">Login</a>
-                              </li>
-                              <li class="nav-item d_none">
-                                 <a class="nav-link" href="#">Register</a>
-                              </li>
-                              <li class="nav-item d_none sea_icon">
-                                 <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </header>
+      <?php include 'navbar.html'?>
       <!-- end header inner -->
       <!-- end header -->
       <!-- Our  Glasses section -->
@@ -98,7 +94,7 @@
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <div class="titlepage">
-                     <h2>Our Glasses</h2>
+                     <h2>Nuestros Lentes</h2>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor
                         e et dolore magna aliqua. Ut enim ad minim veniam, qui
                      </p>
@@ -110,58 +106,89 @@
             <div class="row">
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/glass1.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                     <div class="product-container">
+                     <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 1,125.00</span>
+                        <span class="discount-price">S/ 562.50</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
+                     </div>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
-                     <figure><img src="images/glass2.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                  <div class="product-container">
+                     <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 1,125.00</span>
+                        <span class="discount-price">S/ 562.50</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
-                     <figure><img src="images/glass3.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                  <div class="product-container">
+                     <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 1,125.00</span>
+                        <span class="discount-price">S/ 562.50</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
                      <figure><img src="images/glass4.png" alt="#"/></figure>
                      <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                     <p>Sunglasses</p><br>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
                      <figure><img src="images/glass5.png" alt="#"/></figure>
                      <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                     <p>Sunglasses</p><br>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
                      <figure><img src="images/glass6.png" alt="#"/></figure>
                      <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                     <p>Sunglasses</p><br>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
                      <figure><img src="images/glass7.png" alt="#"/></figure>
                      <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                     <p>Sunglasses</p><br>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
                      <figure><img src="images/glass8.png" alt="#"/></figure>
                      <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p>
+                     <p>Sunglasses</p><br>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-md-12">

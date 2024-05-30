@@ -1,5 +1,7 @@
 <?php
 require_once 'C:\xampp\htdocs\VirtuLentes\conexion\database.php';
+$searchTerm ='';
+
 
 // Conexión a la base de datos
 $link = conectarse();
@@ -30,12 +32,19 @@ if (!$result) {
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <!-- Fancybox -->
     <link rel="stylesheet" href="../css/jquery.fancybox.min.css" media="screen">
-      
+   
 </head>
 <body>
-    
+<?php include 'navbarAdmin.php'; ?>
+    <br><br><br><br>
     <h1>Lista de Productos</h1>
-    <a href="/VirtuLentes/negocio/agregarProductos.php"><button>Agregar Productos</button></a>
+    <br><br>
+    <a href="/VirtuLentes/negocio/agregarProductos.php"><button class="btn btn-outline-success my-2 my-sm-0">Agregar Productos</button></a>
+    <!-- Barra de búsqueda -->
+    <form method="POST" action="../../negocio/buscarProductos.php" class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" name="search" placeholder="Buscar productos" aria-label="Buscar" value="<?php echo htmlspecialchars($searchTerm); ?>">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
     <table>
         <tr>
             <th>ID</th>

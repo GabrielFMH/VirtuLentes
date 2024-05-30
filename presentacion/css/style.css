@@ -856,3 +856,31 @@ table {
  .actions {
      text-align: center;
  }
+ 
+ /* ESTILOS PARA MIS LENTES */
+ .product-container {
+     text-align: center;
+     margin: 20px;
+ }
+ .product-container img {
+     width: 100%;
+     height: auto;
+ }
+ .product-container h3 {
+     color: red;
+     font-size: 1.5em;
+     font-weight: bold;
+ }
+ .product-container .original-price {
+     text-decoration: line-through;
+     color: gray;
+ }
+ .product-container .discount {
+     color: red;
+     font-size: 1.2em;
+     margin-left: 10px;
+ }
+ .product-container .discount-label {
+     color: gray;
+     font-size: 0.9em;
+ }
