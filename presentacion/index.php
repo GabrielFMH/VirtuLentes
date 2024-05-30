@@ -54,7 +54,7 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1> <span class="blu">Bienvenido <br></span>To Our Sunglasses</h1>
+                           <h1> <span class="blu">BIENVENIDO <br></span>VirtuLentes</h1>
                            <figure><img src="images/banner_img.png" alt="#"/></figure>
                            <a class="read_more" href="#">Shop Now</a>
                         </div>
@@ -65,7 +65,7 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1>
+                           <h1> <span class="blu">BIENVENIDO <br></span>VirtuLentes</h1>
                            <figure><img src="images/banner_img.png" alt="#"/></figure>
                            <a class="read_more" href="#">Shop Now</a>
                         </div>
@@ -76,7 +76,7 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1>
+                           <h1> <span class="blu">BIENVENIDO <br></span>VirtuLentes</h1>
                            <figure><img src="images/banner_img.png" alt="#"/></figure>
                            <a class="read_more" href="#">Shop Now</a>
                         </div>

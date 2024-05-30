@@ -95,8 +95,9 @@
                <div class="col-md-10 offset-md-1">
                   <div class="titlepage">
                      <h2>Nuestros Lentes</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor
-                        e et dolore magna aliqua. Ut enim ad minim veniam, qui
+                     <p>Explora la distinción y el estilo de las mejores marcas con nuestra exclusiva colección de lentes de sol para hombre
+                        en Perú. En nuestra tienda en línea, te ofrecemos una cuidadosa selección de los modelos más destacados de marcas
+                        reconocidas a nivel mundial, diseñados para realzar tu masculinidad y elegancia.
                      </p>
                   </div>
                </div>
@@ -104,8 +105,7 @@
          </div>
          <div class="container-fluid">
             <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">                  
                      <div class="product-container">
                      <figure>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
@@ -119,10 +119,54 @@
                     </div>
                      <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                      </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="product-container">
+                     <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX2_u1xX0-GJ-Tfc4wGkYO-2d8JN_LuTbhqQ&s" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 871.00</span>
+                        <span class="discount-price">S/ 435.50</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="product-container">
+                     <figure>
+                        <img src="https://soloptical.net/pub/media/catalog/product/cache/a237138a07ed0dd2cc8a6fa440635ea6/0/a/0an4246__01_25_030a.jpg" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 644.40</span>
+                        <span class="discount-price">S/ 322.20</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+               <div class="product-container">
+                     <figure>
+                        <img src="https://mipromocional.com.mx/wp-content/uploads/2020/09/LEN-006-V.jpg" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 1,000.00</span>
+                        <span class="discount-price">S/ 500.0</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
+                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+               <div class="product-container">
                      <figure>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
                      </figure>
@@ -137,7 +181,7 @@
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="product-container">
+               <div class="product-container">
                      <figure>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
                      </figure>
@@ -152,42 +196,32 @@
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
-                     <figure><img src="images/glass4.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p><br>
+               <div class="product-container">
+                     <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 1,125.00</span>
+                        <span class="discount-price">S/ 562.50</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
                      <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
-                     <figure><img src="images/glass5.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p><br>
-                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
-                     <figure><img src="images/glass6.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p><br>
-                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
-                     <figure><img src="images/glass7.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p><br>
-                     <a class="btn btn-primary" href="#">Añadir al Carrito</a>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="glasses_box">
-                     <figure><img src="images/glass8.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>Sunglasses</p><br>
+               <div class="product-container">
+                     <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxa6xBhtUISgT1UbQGtyshQcIkTBlywfUtA&s" alt="#"/>
+                     </figure>
+                     <p class="product-name">Prada Linea Rossa</p><br>
+                     <p class="product-description">0PS 54IS Negro Hombre</p><br>
+                     <div class="price-container">
+                        <span class="original-price">S/ 1,125.00</span>
+                        <span class="discount-price">S/ 562.50</span>
+                        <span class="discount-label">50% Dcto</span>
+                    </div>
                      <a class="btn btn-primary" href="#">Añadir al Carrito</a>
                   </div>
                </div>
@@ -232,6 +266,77 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script>
+         let cart = [];
+
+         function showCart() {
+            const cartContainer = document.getElementById('cart-container');
+            cartContainer.style.display = cartContainer.style.display === 'none' ? 'block' : 'none';
+         }
+
+         function addToCart(product) {
+            const productName = product.querySelector('.product-name').innerText;
+            const productPrice = product.querySelector('.discount-price').innerText;
+            const productImage = product.querySelector('img').src;
+
+            const cartItem = {
+               name: productName,
+               price: productPrice,
+               image: productImage,
+               id: cart.length + 1  // Assuming a unique id for simplicity
+            };
+
+            cart.push(cartItem);
+            updateCart();
+         }
+
+         function updateCart() {
+            const cartItems = document.getElementById('cart-items');
+            cartItems.innerHTML = '';
+
+            cart.forEach(item => {
+               const cartItem = document.createElement('div');
+               cartItem.style.display = 'flex';
+               cartItem.style.justifyContent = 'space-between';
+               cartItem.innerHTML = `
+                  <div style="text-align: center; margin-bottom: 10px;">
+                     <img src="${item.image}" alt="${item.name}" style="max-width: 50px; max-height: 50px;">
+                     <p>${item.name}</p>
+                     <p>${item.price}</p>
+                  </div>
+                  <button onclick="removeFromCart(${item.id})">Eliminar</button>
+               `;
+               cartItems.appendChild(cartItem);
+            });
+
+            updateTotal();
+         }
+
+         function removeFromCart(itemId) {
+            cart = cart.filter(item => item.id !== itemId);
+            updateCart();
+         }
+
+         function clearCart() {
+            cart = [];
+            updateCart();
+         }
+
+         function updateTotal() {
+            // Implement this function if you want to show the total price of the cart
+         }
+
+         function checkout() {
+            // Implementar funcionalidad de checkout aquí
+            alert('Procediendo al checkout...');
+         }
+
+         document.querySelectorAll('.btn-primary').forEach(button => {
+            button.addEventListener('click', () => {
+               addToCart(button.parentElement);
+            });
+         });
+      </script>
    </body>
 </html>
 
