@@ -87,6 +87,9 @@ border-radius: 3px;
 background: #03cafc;
 color: #fff;
 cursor: pointer;
+text-decoration: none; /* Asegura que el enlace no tenga subrayado */
+  display: block; /* Asegura que ocupe todo el ancho disponible */
+  text-align: center; /* Centra el texto dentro del botón */
 }
 
 .buttons:hover {

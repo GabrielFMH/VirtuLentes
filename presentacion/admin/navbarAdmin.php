@@ -32,9 +32,15 @@ $numNotificaciones = count($notificaciones);
         .hidden {
             display: none;
         }
+        .notification-container {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+        }
         .notification-dropdown {
             position: absolute;
-            top: 100%; /* Just below the navbar */
+            top: 100%; /* Just below the button */
             right: 0;
             background-color: white;
             border: 1px solid #ccc;
@@ -42,7 +48,7 @@ $numNotificaciones = count($notificaciones);
             max-height: 400px; /* Ajusta según sea necesario */
             overflow-y: auto;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
+            z-index: 100;
         }
         .notification-item {
             padding: 10px;
@@ -51,9 +57,6 @@ $numNotificaciones = count($notificaciones);
         .notification-item:last-child {
             border-bottom: none;
         }
-        .navbar-nav {
-            position: relative;
-        }
         .notification-count {
             background-color: red;
             color: white;
@@ -61,8 +64,8 @@ $numNotificaciones = count($notificaciones);
             padding: 2px 6px;
             font-size: 14px;
             position: absolute;
-            top: 5px;
-            right: 5px;
+            top: -5px;
+            right: -5px;
         }
     </style>
 </head>
@@ -79,23 +82,6 @@ $numNotificaciones = count($notificaciones);
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
                                 <!-- Otros elementos de navegación aquí -->
-                                <li class="nav-item dropdown notification-container" style="position: relative;">
-                                    <button id="notification-button" class="nav-link">
-                                        <img src="../images/campana.png" alt="Notificaciones">
-                                        <span id="notification-count" class="notification-count"><?php echo $numNotificaciones; ?></span>
-                                    </button>
-                                    <div id="notification-dropdown" class="notification-dropdown hidden">
-                                        <?php if ($notificaciones): ?>
-                                            <?php foreach ($notificaciones as $notificacion): ?>
-                                                <div class="notification-item">
-                                                    <?php echo $notificacion; ?>
-                                                </div>
-                                            <?php endforeach; ?>
-                                        <?php else: ?>
-                                            <div id="no-notifications-message">No hay notificaciones nuevas.</div>
-                                        <?php endif; ?>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -105,6 +91,29 @@ $numNotificaciones = count($notificaciones);
     </div>
 </header>
 
-<script src="script.js"></script>
+<div class="notification-container">
+    <button id="notification-button" class="nav-link">
+        <img src="../images/campana.png" alt="Notificaciones">
+        <span id="notification-count" class="notification-count"><?php echo $numNotificaciones; ?></span>
+    </button>
+    <div id="notification-dropdown" class="notification-dropdown hidden">
+        <?php if ($notificaciones): ?>
+            <?php foreach ($notificaciones as $notificacion): ?>
+                <div class="notification-item">
+                    <?php echo $notificacion; ?>
+                </div>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <div id="no-notifications-message">No hay notificaciones nuevas.</div>
+        <?php endif; ?>
+    </div>
+</div>
+
+<script>
+    document.getElementById('notification-button').addEventListener('click', function() {
+        var dropdown = document.getElementById('notification-dropdown');
+        dropdown.classList.toggle('hidden');
+    });
+</script>
 </body>
 </html>

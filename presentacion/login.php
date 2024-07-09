@@ -12,7 +12,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>sungla</title>
+      <title>virtulentes</title>
+      <title></title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -40,7 +41,7 @@
   <video autoplay loop muted id="video-background">
     <source src="video.mp4" type="video/mp4">
   </video>
-  <?php include('navbar.html'); ?>
+  <?php include('navbar.php'); ?>
   <br><br><br><br><br><br>
   <link rel="stylesheet" href="css/style_login.css">
 
@@ -59,7 +60,7 @@
         </div>
           <label class="etique2">Recaptcha:</label>
           <div class="mb-3" required>
-            <div class="g-recaptcha" data-sitekey="6Ld_t_koAAAAAMSDKyzZEQxAwpevsUkr7lNadtp_" id="recaptcha"></div>
+            <!---<div class="g-recaptcha" data-sitekey="6LefDvUpAAAAADGXsH2m8It0UjwkKUcTTsJ1Jg_t" id="recaptcha"></div>--->
           </div> 
         <div class="form-group">
           <input class="buttons" type="submit" name="" value="Ingresar">
@@ -68,6 +69,7 @@
     </div>
   </form>
 </div>
+
 
 <script>
   function validarRecaptcha() {
@@ -81,6 +83,8 @@
     }
   }
 </script>
+
+
 
 </body>
 </html>

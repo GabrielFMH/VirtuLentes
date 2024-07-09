@@ -42,30 +42,46 @@ mysqli_close($link);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar Producto</title>
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="../presentacion/css/bootstrap.min.css">
+   
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="../presentacion/css/responsive.css">
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="../presentacion/css/jquery.mCustomScrollbar.min.css">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="../presentacion/css/font-awesome.min.css">
+ 
+   <!-- Tabla -->
+   <link rel="stylesheet" href="../presentacion/css/table.css">  
 </head>
 <body>
-    <h1>Agregar Nuevo Producto</h1>
-    <form action="agregarProducto.php" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-        
-        <label for="descripcion">Descripción:</label>
-        <textarea id="descripcion" name="descripcion" required></textarea><br><br>
-        
-        <label for="precio">Precio:</label>
-        <input type="text" id="precio" name="precio" required><br><br>
-        
-        <label for="stock">Stock:</label>
-        <input type="text" id="stock" name="stock" required><br><br>
-        
-        <label for="modelo_url">Modelo URL:</label>
-        <input type="text" id="modelo_url" name="modelo_url"><br><br>
-        
-        <label for="id_categoria">Categoría:</label>
-        <input type="text" id="id_categoria" name="id_categoria" required><br><br>
-        
-        <input type="submit" value="Agregar Producto">
-    </form>
-    <a href="../presentacion/admin/crudProductos.php">Volver a la lista de productos</a>
+    <?php include '../presentacion/admin/barra_admin.php'; ?>
+
+ 
+    <div class="form-container">
+        <h1>Agregar nuevo producto:</h1>
+        <form action="agregarProducto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" required></textarea>
+            
+            <label for="precio">Precio:</label>
+            <input type="text" id="precio" name="precio" required>
+            
+            <label for="stock">Stock:</label>
+            <input type="text" id="stock" name="stock" required>
+            
+            <label for="modelo_url">Modelo URL:</label>
+            <input type="text" id="modelo_url" name="modelo_url">
+            
+            <label for="id_categoria">Categoría:</label>
+            <input type="text" id="id_categoria" name="id_categoria" required>
+            
+            <button type="submit">Agregar Producto</button>
+        </form>
+    </div>
 </body>
 </html>

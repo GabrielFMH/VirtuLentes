@@ -1,4 +1,4 @@
- <!-- header -->
+../ <!-- header -->
  <header>
     <!-- header inner -->
     <div class="header">
@@ -8,7 +8,7 @@
                 <div class="full">
                    <div class="center-desk">
                       <div class="logo">
-                         <a href="index.php"><img src="" alt="#" /></a>
+                         <a href="index.php"><img src="images/virtuLogo.png" width="150px" height="0px" alt="#" /></a>
                       </div>
                    </div>
                 </div>
@@ -21,39 +21,39 @@
                    <div class="collapse navbar-collapse" id="navbarsExample04">
                       <ul class="navbar-nav mr-auto">
                          <li class="nav-item ">
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link" href="index.php">Inicio</a>
                          </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="about.html">Nosotros</a>
+                            <a class="nav-link" href="about.php">Nosotros</a>
                          </li>
                          <li class="nav-item">
                             <a class="nav-link" href="glasses.php">Catalogo</a>
                          </li>
                     
                          <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contacto</a>
+                            <a class="nav-link" href="contact.php">Contacto</a>
                          </li>
                          <li class="nav-item d_none login_btn">
-                            <a class="nav-link" href="admin/crudProductos.php">Admin</a>
+                            <a class="nav-link" href="login.php">Admin</a>
                          </li>
                          <li class="nav-item d_none">
-                            <a class="nav-link" href="login.php">Login</a>
+                            <a class="nav-link" href="#">User</a>
                          </li>
                          <li class="nav-item d_none sea_icon">
-                            <a class="nav-link" href="carrito.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <a class="nav-link" href="carrito.php"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
                          </li>
                          <li>
-                           <img onclick="showCart()" class="cart" src="./images/cart.png" alt="Cart" style="width: 30px; height: 30px;">
+                           <img onclick="showCart()" class ="cart" src="https://i.imgur.com/z1SeOiw.png" alt="Cart" style="width: 30px; height: 30px;">
                            <div id="cart-container" class="cart-container" style="display: none; width: 200px;">
                                <div id="cart-items" style="display: flex; flex-wrap: wrap;">
                                    <!-- Aquí se añadirán los productos dinámicamente -->
                                </div>
                                <div>
-                                   <button onclick="checkout()">Checkout</button>
+                                   <button onclick="goToCart()">Ir al Carrito</button>
                                    <button onclick="clearCart()">Vaciar Carrito</button>
                                </div>
                            </div>
-                        </li>     
+                        </li>    
                       </ul>
                    </div>
                 </nav>

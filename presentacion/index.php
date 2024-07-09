@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>sungla</title>
+      <title>virtulentes</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -28,6 +28,8 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+      <script src="//code.tidio.co/qatp5jdro988liyufwrlqw6fuciktkkp.js" async></script>
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -37,73 +39,73 @@
       </div>
       <!-- end loader -->
 
-      <?php include 'navbar.html'?>
+      <?php include 'navbar.php'?>
 
 
 
       <!-- banner -->
-      <section class="banner_main">
-         <div id="banner1" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#banner1" data-slide-to="0" class="active"></li>
-               <li data-target="#banner1" data-slide-to="1"></li>
-               <li data-target="#banner1" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1> <span class="blu">BIENVENIDO <br></span>VirtuLentes</h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Shop Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1> <span class="blu">BIENVENIDO <br></span>VirtuLentes</h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Shop Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1> <span class="blu">BIENVENIDO <br></span>VirtuLentes</h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Shop Now</a>
-                        </div>
-                     </div>
+<section class="banner_main">
+   <div id="banner1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#banner1" data-slide-to="0" class="active"></li>
+         <li data-target="#banner1" data-slide-to="1"></li>
+         <li data-target="#banner1" data-slide-to="2"></li>
+         <li data-target="#banner1" data-slide-to="3"></li> <!-- Nuevo indicador -->
+         <li data-target="#banner1" data-slide-to="4"></li> <!-- Nuevo indicador -->
+      </ol>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <div class="container">
+               <div class="carousel-caption">
+                  <div class="text-bg">
+                     <h1> <span class="blu">BIENVENIDO <br></span>VirtuLentes</h1>
+                     <figure><img src="images/banner_img.png" alt="#"/></figure>
+                     <a class="read_more" href="glasses.php">Comprar ahora</a>
                   </div>
                </div>
             </div>
-            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </a>
-            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </a>
          </div>
-      </section>
-      <!-- end banner -->
+         <div class="carousel-item"> <!-- Nuevo elemento del carrusel -->
+            <div class="container">
+               <div class="carousel-caption">
+                  <div class="text-bg">
+                     <h1> <span class="blu">OFERTAS ESPECIALES <br></span>VirtuLentes</h1>
+                     <figure><img src="images/banner2.jpg" alt="#"/></figure>
+                     <a class="read_more" href="nueva_coleccion.php">Descubrir ahora</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item"> <!-- Nuevo elemento del carrusel -->
+            <div class="container">
+               <div class="carousel-caption">
+                  <div class="text-bg">
+                     <h1> <span class="blu">NUEVA COLECCIÓN <br></span>VirtuLentes</h1>
+                     <figure><img src="images/banner3.webp" height="150px" alt="#"/></figure>
+                     <a class="read_more" href="ofertas.php">Ver ofertas</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+      <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      </a>
+      <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </a>
+   </div>
+</section>
+<!-- end banner -->
+
      
-      <!-- Our  Glasses section -->
-      <div class="glasses">
+ <!-- Our  Glasses section -->
+ <div class="glasses">
          <div class="container">
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <div class="titlepage">
-                     <h2>Our Glasses</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor
-                        e et dolore magna aliqua. Ut enim ad minim veniam, qui
-                     </p>
+                     <h2>LENTES DESTACADOS</h2>
                   </div>
                </div>
             </div>
@@ -167,42 +169,20 @@
                   </div>
                </div>
                <div class="col-md-12">
-                  <a class="read_more" href="#">Read More</a>
+                  <a class="read_more" href="glasses.php">Ver mas</a>
                </div>
             </div>
          </div>
       </div>
       <!-- end Our  Glasses section -->
-      <!-- Our shop section -->
-      <div id="about" class="shop">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-5">
-                  <div  class="shop_img">
-                     <figure><img src="images/shop_img.png" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-7 padding_right0">
-                  <div class="max_width">
-                     <div class="titlepage">
-                        <h2>Best SunGlasses  At Our shop</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                        <a class="read_more" href="#">Shop Now</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end Our shop section -->
       <!-- clients section -->
       <div class="clients">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>What say our clients</h2>
-                     <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la</p>
+                     <h2>Lo que dicen nuestros clientes</h2>
+                     <p>"Dayudi ha sido una revelación para mí. Sus lentes no solo son elegantes, sino que también ofrecen una protección excepcional contra los rayos UV.</p>
                   </div>
                </div>
             </div>
@@ -223,7 +203,7 @@
                                        <div class="clients_box">
                                           <figure><img src="images/our.png" alt="#"/></figure>
                                           <h3>Sandy Mark</h3>
-                                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact  a more-or-less normal distribution of letters,</p>
+                                             <p>"Desde que descubrí Dayudi, he encontrado los lentes de sol perfectos para cada ocasión. La calidad de sus productos es evidente en cada detalle, y el servicio al cliente es impecable. Definitivamente, recomendaría Dayudi a mis amigos y familiares sin dudarlo."</p>
                                        </div>
                                     </div>
                                  </div>
@@ -236,9 +216,9 @@
                                  <div class="row">
                                     <div class="col-md-12">
                                        <div class="clients_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Sandy Mark</h3>
-                                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact  a more-or-less normal distribution of letters,</p>
+                                          <figure><img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200" alt="#"/></figure>
+                                          <h3>Michael Torres</h3>
+                                          <p>"Como alguien que valora tanto el estilo como la funcionalidad, encontrar Dayudi fue un verdadero hallazgo. Sus monturas no solo son modernas y cómodas, sino que también se sienten increíblemente duraderas. Sin lugar a dudas, Dayudi se ha convertido en mi primera opción para lentes de sol de calidad."</p>
                                        </div>
                                     </div>
                                  </div>
@@ -251,9 +231,9 @@
                                  <div class="row">
                                     <div class="col-md-12">
                                        <div class="clients_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Sandy Mark</h3>
-                                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact  a more-or-less normal distribution of letters,</p>
+                                          <figure><img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=150" alt="#"/></figure>
+                                          <h3>Juan Martínez</h3>
+                                          <p>"He sido cliente de Dayudi durante años y siempre me han impresionado con su atención al detalle. Cada vez que compro un par de lentes, sé que estoy obteniendo lo mejor en cuanto a protección UV y diseño elegante. Recomiendo Dayudi a cualquiera que busque calidad y estilo en sus accesorios de moda.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -281,22 +261,22 @@
                   <form id="request" class="main_form">
                      <div class="row">
                         <div class="col-md-12 ">
-                           <h3>Contact Us</h3>
+                           <h3>Contactanos</h3>
                         </div>
                         <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                           <input class="contactus" placeholder="Nombre" type="type" name="Name"> 
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number"> 
+                           <input class="contactus" placeholder="Celular" type="type" name="Phone Number"> 
                         </div>
                         <div class="col-md-12">
                            <input class="contactus" placeholder="Email" type="type" name="Email">                          
                         </div>
                         <div class="col-md-12">
-                           <input class="contactusmess" placeholder="Message" type="type" Message="Name">
+                           <input class="contactusmess" placeholder="Mensaje" type="type" Message="Name">
                         </div>
                         <div class="col-md-12">
-                           <button class="send_btn">Send</button>
+                           <button class="send_btn">Enviar</button>
                         </div>
                      </div>
                   </form>
@@ -327,24 +307,37 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script>
-         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-         // Australia.
          function initMap() {
-           var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
-             });
-         
-         var image = 'images/maps-and-flags.png';
-         var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
-             map: map,
-             icon: image
-           });
+            var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 20,
+                  center: {lat: -18.004401585948727, lng: -70.24405441060699},
+            });
+               
+            var beaches = [
+                  {name: "Puesto1", position: {lat: -18.0044334804053, lng: -70.24392648738967}},
+                  {name: "Puesto2", position: {lat: -18.004116, lng: -70.243897}},
+                  {name: "Puesto3", position: {lat: -18.004130178837457, lng: -70.24359985952375}},
+            ];
+
+            //CONFIGURAR TAMAÑO DE LOS MARCADORES V:
+            //var icon = {
+            //   url: 'ruta/a/tu/imagen.png', // la url de la imagen
+            //   scaledSize: new google.maps.Size(50, 50), // el tamaño de la imagen
+            //   origin: new google.maps.Point(0, 0), // origen
+            //   anchor: new google.maps.Point(0, 0) // ancla
+            //};
+            
+            for (var i = 0; i < beaches.length; i++) {
+                  var beachMarker = new google.maps.Marker({
+                     position: beaches[i].position,
+                     map: map,
+                     title: beaches[i].name
+                  });
+            }
          }
       </script>
       <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXkj8pLtsRLnC0eGslGLGNoABeoHYTEh4&callback=initMap"></script>
       <!-- end google map js --> 
    </body>
 </html>

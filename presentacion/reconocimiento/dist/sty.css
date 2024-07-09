@@ -1,0 +1,169 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  color: #3d3d3d;
+  --mdc-theme-primary: #007f8b;
+  --mdc-theme-on-primary: #f1f3f4;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-style: italic;
+  color: #007f8b;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h2 {
+  clear: both;
+  color: #007f8b;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+em {
+  font-weight: bold;
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+  padding: 1em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header,
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 1em;
+  color: #007f8b;
+}
+
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+.note {
+  font-style: italic;
+  font-size: 1.3em;
+  color: #007f8b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.image-container,
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 1%;
+  border: 1px solid #007f8b;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.image-container img,
+.video-container video {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.image-container canvas,
+.video-container canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+video {
+  display: block;
+  transform: rotateY(180deg);
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.videoView p,
+.detectOnClick p {
+  position: absolute;
+  padding: 5px;
+  background-color: #007f8b;
+  color: #ffffff;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  font-size: 12px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed #ffffff;
+  z-index: 1;
+  position: absolute;
+}
+
+.canvas {
+  z-index: 1;
+  position: absolute;
+  pointer-events: none;
+}
+
+.output_canvas {
+  transform: rotateY(180deg);
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.detectOnClick {
+  z-index: 0;
+}
+
+.detectOnClick img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blend-shapes-item {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.blend-shapes-label {
+  display: flex;
+  width: 120px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.blend-shapes-value {
+  display: flex;
+  height: 16px;
+  align-items: center;
+  background-color: #007f8b;
+}
