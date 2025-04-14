@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true">
+<phpunit
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    verbose="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    stopOnFailure="false">
     <testsuites>
         <testsuite name="Application Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-    <php>
-        <ini name="error_reporting" value="E_ALL"/>
-    </php>
+    <logging>
+        <log type="junit" target="build/logs/junit.xml"/>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
+    <filter>
+        <whitelist>
+            <directory>src</directory>
+        </whitelist>
+    </filter>
 </phpunit>
